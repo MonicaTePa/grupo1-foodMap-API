@@ -1,0 +1,4 @@
+Los documentos html, hacen parte de la sección categorías de
+la página del catálogo de restaurantes FoodMap que se presentó 
+cómo proyecto final del módulo 1, por tal motivo no existe
+el archivo index.html.
