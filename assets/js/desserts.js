@@ -56,7 +56,7 @@ fetch( `${BASE_API_URL}/${idMeal}` )
         
 
         pElement.appendChild(
-            document.createTextNode(`Ingredients: ${mealIngredients}`)
+            document.createTextNode(`Ingredientes: ${mealIngredients}`)
         );
         container.appendChild(pElement);
 
