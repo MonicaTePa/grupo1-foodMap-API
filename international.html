@@ -4,41 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internacional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:ital,wght@0,200;0,300;0,600;1,600&display=swap" rel="stylesheet"> 
+    <title>Comida Internacional</title>   
     <link rel="stylesheet" href="./assets/css/international.css">
 </head>
 <body>
     <div id="background-div"></div>         
     <header>
-
+        <div class="product-logo-container">
+            <img src="./img/header-footer-img/foodMap-02.png" alt="Product logo" class="logo-img">
+        </div>
+        <nav class="main-nav">
+            <ul class="main-nav-options">
+                <li class="main-nav-item"><a href="">Inicio</a></li>
+                <li class="main-nav-item"><a href="">Mapa</a></li>
+                <li class="main-nav-item"><a href="">Categorías</a></li>
+                <li class="main-nav-item"><a href="">Acerca de Nosotros</a></li>
+                <li class="main-nav-item"><a href="">Inscríbe tu restaurante</a></li>
+            </ul>                
+        </nav>
+        <div class="login-button">
+            <a href="./international.html">Iniciar sesión</a>
+            <img src="./img/header-footer-img/Icons-01.png" alt="login-icon" class="user-login-img">
+        </div>
     </header>  
     <main class="category-main">
-        <h2 class="category-title">International</h2>
-        <section class="meal-item-container">
-            <h2 class="meal-name">Dish name</h2>
-            <div class="auxiliary-div">
-                <img src="./img/Pound_layer_cake.jpg" alt="Food Image" class="meal-img">
-                <div class="ingredient-container">
-                    <p>INGREDIENTES</p>
-                    <ul>
-                        <li>Ingredient</li>
-                        <li>Ingredient</li>
-                        <li>Ingredient</li>
-                        <li>Ingredient</li>
-                        <li>Ingredient</li>
-                        <li>Ingredient</li>
-                        <li>Ingredient</li>
-                        <li>Ingredient</li>
-                        <li>Ingredient</li>
-                        <li>Ingredient</li>
-                    </ul>
-                </div>  
-            </div>              
-                        
-              
-            <h3 class="video-link-title">Hazte una idea de lo que te prepararán <br> con el siguiente video</h3>
-
-        </section>
+        <nav class="category-menu">
+            <ul>
+                <li class="category-menu-item"><a href="fast-food.html">Comida rápida</a></li>                
+                <li class="category-menu-item"><a href="international.html">Internacional</a></li>
+                <li class="category-menu-item"><a href="desserts.html">Postres</a> </li>
+                <li class="category-menu-item"><a href="vegan.html">Vegetariana y vegana</a></li>            
+                <li class="category-menu-item"><a href="drinks.html">Bebidas</a></li> 
+            </ul>
+        </nav>
+        <h2 class="category-title">INTERNATIONAL</h2>      
     </main>    
     <script src="./assets/js/international-food.js"></script>
 </body>
