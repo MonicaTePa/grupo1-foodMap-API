@@ -1,283 +1,274 @@
- 
-
-#background-div{
-   height: 100vh;
-   width: 100%;   
-   background-image: url('../../img/fondo.png') ; 
-   background-size: 100% 100%;
-   background-color: #F4DEAA;
-   background-repeat: no-repeat;
-   background-position: center;
-   position: fixed;
-   top:0;
-   z-index: -100;   
+#background-div {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../../img/fondo.png");
+  background-size: 100% 100%;
+  background-color: #f4deaa;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  z-index: -100;
 }
-img{
- 
-		border-top-left-radius: 20%;
-        border-bottom-right-radius: 20%;
-        border:1px orange solid;
-		background-color:orange;
-   
-		box-shadow: 0px 0px 50px 0px rgba(250, 164, 032, 0.8);
-		
-    }
-    div ul {
+img {
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  border: 1px orange solid;
+  background-color: orange;
+
+  box-shadow: 0px 0px 50px 0px rgba(250, 164, 032, 0.8);
+}
+div ul {
   list-style: none;
 }
- 
 
 div ul li::before {
   content: "\2611";
 }
-   hr{
-    size:2px;
-    color:#DE6E2F
-    }
-    a{
-    
-      content: "\2611";
-    }
-    *{
-        margin: 0;
-        padding:0;
-        box-sizing: border-box;
-    }
-    
-    header {
-        position: fixed;
-        z-index: 10;
-        top: 0;
-    }
-    
-    .category-menu {
-        height: auto;
-        padding: 5px;
-        color: white;
-        top: 100px;
-        position: fixed;
-        text-align: center;
-        width: 100%;
-        border: 1px solid #f4edda;
-        z-index: 10;
-    }
-    
-    .category-menu:hover li {
-        cursor: pointer;
-    }
-    
-    .category-menu li a:visited {
-        color: white;
-    }
-    
-    body{
-        width: 98vw;
-        height: 100vh;    
-    }
-     
-    header{
-        height: 100px;
-        width: 100%;      
-        padding-left: 10vw;
-        padding-right: 10vw;
-        position: fixed;
-        top: 0;    
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #F0B237;
-    }
-    
-    header .product-logo-container{
-        height:100%;
-        width: 100px;   
-    }
-    
-    header .product-logo-container .logo-img{
-        width: 100%;
-        height: 100%;
-    }
-    
-    header .main-nav {
-        height: 100%;    
-        background-color: #DE6E2F;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    header .main-nav .main-nav-options .main-nav-item{
-        display:inline;
-        list-style: none; 
-        font-size: 13px;
-        padding:5px;
-        font-family: 'Montserrat',sans-serif;
-        color: white;  
-        border-radius: 5px;
-    }
-    
-    header .main-nav .main-nav-options .main-nav-item:hover{
-        background-color:  #EE8B2E;
-    }
-    
-    header .main-nav .main-nav-options .main-nav-item a{
-        text-decoration: none;
-    }
-    
-    header .main-nav .main-nav-options .main-nav-item a:visited{
-        color: white;
-    }
-    
-    
-    
-    header .login-button{
-        border: 2px #DE6E2F solid;
-        padding: 5px 10px 5px 10px; 
-        background-color: #F0B237;
-        border-radius: 5px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center; 
-    }
-    
-    header .login-button a{
-        font-family: 'Montserrat',sans-serif;
-        font-size: 15px;
-        text-decoration: none;
-        font-family: 'Montserrat',sans-serif; 
-        color: white;     
-    }
-    
-    header .login-button .user-login-img{    
-        height:30px;
-        width:28px;
-    }
-    
-    .category-main{
-        margin-top:130px;
-        width:100%;
-    }
-    
-    .category-menu {
-        height: auto;
-        padding: 5px;
-        color: white;
-        top: 100px;
-        position: fixed;
-        text-align: center;
-        width: 100%;
-        border: 1px solid #f4edda;
-        z-index: 10;   
-        background-color: #DE6E2F; 
-    }
-    
-    .category-main ul{
-        list-style: none;
-    }
-    
-    .category-menu li{
-        display: inline;
-        padding: 5px;
-        font-family: 'Montserrat', sans-serif;
-    }
-    
-    .category-menu:hover li {
-        cursor: pointer;
-    }
-    
-    .category-menu li a:visited {
-        color: white;
-    }
-    
-    .category-menu li a{
-        text-decoration: none;
-        font-size: 13px;
-    }
-    
-    .category-main .meal-item-container{
-        width: 100%;
-        height: 78vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;       
-    }
-    
-    .category-main .category-title{
-        text-align: center;
-        margin-bottom: 1em;    
-        font-size: 2em; 
-        font-family: 'Kaushan Script', cursive;   
-    }
-    
-    .category-main .meal-item-container .meal-name{
-        text-align: center;
-        margin-bottom: 0.2em;
-        font-family: 'Kaushan Script', cursive;
-    }
-    
-    .category-main .meal-item-container .meal-origin{
-        text-align: center;
-        margin-bottom: 1.5em;
-        font-family: 'Montserrat', sans-serif ;
-    }
-    
-    .category-main .meal-item-container .auxiliary-div{
-        width: 100%;
-        height: 200px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center; 
-        margin-bottom: 2em;
-    }
-    
-    .category-main .meal-item-container .meal-img{
-        height: 100%;
-        min-width: auto;
-        background-color: gray;
-    }
-    
-    .category-main .meal-item-container .ingredient-container {
-        text-align: center;
-        margin-left: 2em;
-    }
-    
-    .category-main .meal-item-container .ingredient-container p{
-        text-align: justify;
-        font-family: 'Montserrat', sans-serif ;     
-        
-    }
-    
-    .category-main .meal-item-container .ingredient-container ul{
-        text-align: center;    
-        columns: 2;
-        -webkit-columns: 2;
-        -moz-columns: 2;               
-    }
-    
-    .category-main .meal-item-container .ingredient-container ul li{
-        padding: 2px 2px;
-        margin-left: 0.5em;  
-        font-family: 'Montserrat', sans-serif ;
-        text-align: justify;   
-    }
-    
-    .category-main .meal-item-container .video-link-title{
-        text-align: center;
-        margin-bottom: 1em;  
-        font-family: 'Montserrat', sans-serif ; 
-    }
-    
-    .category-main .meal-item-container .video-link:visited{
-       color: black;   
-    }
-    
-    .category-main .meal-item-container .video-link{    
-        font-family: 'Kaushan Script', cursive;  
-        font-weight: bolder;   
-    }
+hr {
+  size: 2px;
+  color: #de6e2f;
+}
+a {
+  content: "\2611";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+.category-menu {
+  height: auto;
+  padding: 5px;
+  color: white;
+  top: 100px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #f4edda;
+  z-index: 10;
+}
+
+.category-menu:hover li {
+  cursor: pointer;
+}
+
+.category-menu li a:visited {
+  color: white;
+}
+
+body {
+  width: 98vw;
+  height: 100vh;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0b237;
+}
+
+header .product-logo-container {
+  height: 100%;
+  width: 100px;
+}
+
+header .product-logo-container .logo-img {
+  width: 100%;
+  height: 100%;
+}
+
+header .main-nav {
+  height: 100%;
+  background-color: #de6e2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+header .main-nav .main-nav-options .main-nav-item {
+  display: inline;
+  list-style: none;
+  font-size: 13px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border-radius: 5px;
+}
+
+header .main-nav .main-nav-options .main-nav-item:hover {
+  background-color: #ee8b2e;
+}
+
+header .main-nav .main-nav-options .main-nav-item a {
+  text-decoration: none;
+}
+
+header .main-nav .main-nav-options .main-nav-item a:visited {
+  color: white;
+}
+
+header .login-button {
+  border: 2px #de6e2f solid;
+  padding: 5px 10px 5px 10px;
+  background-color: #f0b237;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+header .login-button a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+header .login-button .user-login-img {
+  height: 30px;
+  width: 28px;
+}
+
+.category-main {
+  margin-top: 130px;
+  width: 100%;
+}
+
+.category-menu {
+  height: auto;
+  padding: 5px;
+  color: white;
+  top: 100px;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  border: 1px solid #f4edda;
+  z-index: 10;
+  background-color: #de6e2f;
+}
+
+.category-main ul {
+  list-style: none;
+}
+
+.category-menu li {
+  display: inline;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.category-menu:hover li {
+  cursor: pointer;
+}
+
+.category-menu li a:visited {
+  color: white;
+}
+
+.category-menu li a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.category-main .meal-item-container {
+  width: 100%;
+  height: 78vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.category-main .category-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2em;
+  font-family: "Kaushan Script", cursive;
+}
+
+.category-main .meal-item-container .meal-name {
+  text-align: center;
+  margin-bottom: 0.2em;
+  font-family: "Kaushan Script", cursive;
+}
+
+.category-main .meal-item-container .meal-origin {
+  text-align: center;
+  margin-bottom: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.category-main .meal-item-container .auxiliary-div {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+.category-main .meal-item-container .meal-img {
+  height: 100%;
+  min-width: auto;
+  background-color: gray;
+}
+
+.category-main .meal-item-container .ingredient-container {
+  text-align: center;
+  margin-left: 2em;
+}
+
+.category-main .meal-item-container .ingredient-container p {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+
+.category-main .meal-item-container .ingredient-container ul {
+  text-align: center;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.category-main .meal-item-container .ingredient-container ul li {
+  padding: 2px 2px;
+  margin-left: 0.5em;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+}
+
+.category-main .meal-item-container .video-link-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.category-main .meal-item-container .video-link:visited {
+  color: black;
+}
+
+.category-main .meal-item-container .video-link {
+  font-family: "Kaushan Script", cursive;
+  font-weight: bolder;
+}

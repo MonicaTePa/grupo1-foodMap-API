@@ -1,43 +1,42 @@
-*{
-    list-style-type: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;    
+* {
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-footer{
-    height: 190px;
-    background-color: #f4edda;
-    width: 90%;      
-    margin-left:5vw;
-    margin-right:5vw;    
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;  
-    background-color: #DE6E2F;    
+footer {
+  height: 190px;
+  background-color: #f4edda;
+  width: 90%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: #de6e2f;
 }
 
-.headlogo {    
-    height: 188px;
-    width: 200px;
+.headlogo {
+  height: 188px;
+  width: 200px;
 }
 
-.img6{  
-    width: 180px;
-    height: 180px;
+.img6 {
+  width: 180px;
+  height: 180px;
 }
 
-.container3{      
-    padding-left: 5px;
-    padding-bottom: 10px;
+.container3 {
+  padding-left: 5px;
+  padding-bottom: 10px;
 }
 
-.container3 ul{
-    display: inline;
+.container3 ul {
+  display: inline;
 }
 
 .text1 {
-    color: #F4EDDA;
-    padding-left: 35px;    
+  color: #f4edda;
+  padding-left: 35px;
 }
