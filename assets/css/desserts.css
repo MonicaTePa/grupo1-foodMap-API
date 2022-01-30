@@ -13,19 +13,29 @@ body {
 
 header {
     background-color: transparent;
+    position: fixed;
+    z-index: 10;
+    top: 0;
 }
 
 .category-menu {
-    margin-top: 2px;
-    border: 0px;
+    height: auto;
+    padding: 5px;
+    color: white;
+    top: 100px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    border: 1px solid #f4edda;
+    z-index: 10;
 }
 
 #mainTitle {
     width: 180px;
     height: 18px;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
-    margin-left: 700px;
+    margin-left: 850px;
     font-family: 'Kaushan Script', cursive;
 }
 
